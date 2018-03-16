@@ -12,6 +12,10 @@
 		B0C119DE205BFCEE003BAC37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C119DC205BFCEE003BAC37 /* Main.storyboard */; };
 		B0C119E0205BFCEE003BAC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C119DF205BFCEE003BAC37 /* Assets.xcassets */; };
 		B0C119E3205BFCEE003BAC37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C119E1205BFCEE003BAC37 /* LaunchScreen.storyboard */; };
+		B0C119EC205BFE23003BAC37 /* UserStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C119EB205BFE23003BAC37 /* UserStructure.swift */; };
+		B0C119EE205BFE3D003BAC37 /* CharacterStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C119ED205BFE3D003BAC37 /* CharacterStructure.swift */; };
+		B0C119F0205BFE6D003BAC37 /* CardStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C119EF205BFE6D003BAC37 /* CardStructure.swift */; };
+		B0C119F2205BFE8C003BAC37 /* EventStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C119F1205BFE8C003BAC37 /* EventStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		B0C119DF205BFCEE003BAC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0C119E2205BFCEE003BAC37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0C119E4205BFCEE003BAC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C119EB205BFE23003BAC37 /* UserStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStructure.swift; sourceTree = "<group>"; };
+		B0C119ED205BFE3D003BAC37 /* CharacterStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStructure.swift; sourceTree = "<group>"; };
+		B0C119EF205BFE6D003BAC37 /* CardStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStructure.swift; sourceTree = "<group>"; };
+		B0C119F1205BFE8C003BAC37 /* EventStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,34 @@
 		B0C119D7205BFCEE003BAC37 /* Batya */ = {
 			isa = PBXGroup;
 			children = (
+				B0C119EA205BFDF2003BAC37 /* Model */,
+				B0C119F3205BFE9D003BAC37 /* Controllers */,
 				B0C119D8205BFCEE003BAC37 /* AppDelegate.swift */,
-				B0C119DA205BFCEE003BAC37 /* ViewController.swift */,
 				B0C119DC205BFCEE003BAC37 /* Main.storyboard */,
 				B0C119DF205BFCEE003BAC37 /* Assets.xcassets */,
 				B0C119E1205BFCEE003BAC37 /* LaunchScreen.storyboard */,
 				B0C119E4205BFCEE003BAC37 /* Info.plist */,
 			);
 			path = Batya;
+			sourceTree = "<group>";
+		};
+		B0C119EA205BFDF2003BAC37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0C119EB205BFE23003BAC37 /* UserStructure.swift */,
+				B0C119ED205BFE3D003BAC37 /* CharacterStructure.swift */,
+				B0C119EF205BFE6D003BAC37 /* CardStructure.swift */,
+				B0C119F1205BFE8C003BAC37 /* EventStructure.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0C119F3205BFE9D003BAC37 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0C119DA205BFCEE003BAC37 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C119F2205BFE8C003BAC37 /* EventStructure.swift in Sources */,
 				B0C119DB205BFCEE003BAC37 /* ViewController.swift in Sources */,
+				B0C119EE205BFE3D003BAC37 /* CharacterStructure.swift in Sources */,
+				B0C119F0205BFE6D003BAC37 /* CardStructure.swift in Sources */,
 				B0C119D9205BFCEE003BAC37 /* AppDelegate.swift in Sources */,
+				B0C119EC205BFE23003BAC37 /* UserStructure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
