@@ -8,4 +8,15 @@
 
 import Foundation
 
-
+struct CharacterStructure {
+    let id: Int
+    let name: String
+    var family: Bool
+    var staus: String
+    let icon: String
+    var emotionAngry: Int
+    var emotionSad: Int
+    var emotionInspire: Int
+    var emotionHappy: Int
+    var emotionNeutral: Int
+}
